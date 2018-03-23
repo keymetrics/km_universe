@@ -1,0 +1,31 @@
+{
+  "name": "km-universe-api",
+  "version": "0.0.1",
+  "description": "Retrieve Keymetrics universe !",
+  "private": true,
+  "scripts": {
+    "start": "node ./src/app.js"
+  },
+  "engines": {
+    "node": ">=8.9.4"
+  },
+  "keywords": [],
+  "homepage": "",
+  "directories": {
+    "test": "test"
+  },
+  "author": {
+    "name": "Vincent Vallet",
+    "email": "wallet77@gmail.com",
+    "url": "https://github.com/wallet77"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {}
+}
